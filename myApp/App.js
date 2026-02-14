@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Pressable, StyleSheet, Text, View, Image } from 'react-native';
 import { TextInput } from 'react-native';
 
+//colors
 const gray = '#BCB8B0'
 const lowYellow = '#e4d656'
 const white = '#FFFEF2'
@@ -47,7 +48,7 @@ export default function App() {
   );
 }
 
-
+//icons for butons
 const icons = {
 
   google: {
@@ -67,9 +68,10 @@ const icons = {
 
 }
 
+//object icons
 const {google, apple, microsoft} = icons
 
-
+//style
 const styles = StyleSheet.create({
   container: {
     flex: 1,
